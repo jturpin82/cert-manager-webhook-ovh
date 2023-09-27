@@ -13,8 +13,8 @@ certManager:
   serviceAccountName: cert-manager
 
 image:
-  repository: baarde/cert-manager-webhook-ovh
-  # tag: latest
+  repository: ghcr.io/jturpin82/cert-manager-webhook-ovh
+  tag: v0.27.2
   pullPolicy: IfNotPresent
 
 nameOverride: ""
